@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Question7</title>
+    </head>
+    <body>
+    <form style="font-family:Calibri" method="POST" action="/action.php">
+        <fieldset>
+            <fieldset style="font-family:Calibri;text-align:center;"><b>Login Form</b></fieldset>
+            <p>
+                <label for="name">Name </label>
+                <input type="text" name="fname" id="name" placeholder="FirstName">
+                <input type="text" name="lname" id="name" placeholder="LastName">
+            </p>
+            <p>
+                <label for="Email">Email </label>
+                <input type="mail" name="Email" id="Email" placeholder="Email">
+            </p>
+            <p>
+                <label for="phone">Phone Number </label>
+                <input type="number" name="phone" id="phone" placeholder="10-digit number">
+            </p>
+            <p>
+                <label for="passwd">Password </label>
+                <input type="password" name="passwd" id="passwd" placeholder="password">
+            </p>
+            <p>
+                Gender<br>
+                <input type="radio" name="male" value="male" id="male" checked><label for="male">Male</label><br>
+                <input type="radio" name="female" value="female" id="female"><label for="female">Female</label><br>
+                <input type="radio" name="other" value="other" id="other" ><label for="other">Not wish to Disclose</label>
+            </p>
+            <p>
+                <label for="address">Address :</label><br>
+                <textarea id="address" col="20" row="20"></textarea>
+            </p>
+            <p>
+                <label for="date">Date of Birth</label><br>
+                <input type="date" name="date" id="date">
+            </p>
+            <p>
+                <label for="time">Time</label><br>
+                <input type="time" name="time" id="time">
+            </p>
+            <p>
+                Languages<br>
+                <input type="checkbox" name="tamil" id="tamil" checked><label for="tamil">Tamil</label><br>
+                <input type="checkbox" name="english" id="english"><label for="english">English</label><br>
+                <input type="checkbox" name="french" id="french"><label for="french">French</label>
+            </p>
+            <p>
+                Select Your field of intrest :<br>
+                <select multiple size="3">
+                    <option>Music</option>
+                    <option>Cycling</option>
+                    <option>Batmiton</option>
+                </select>
+            </p>
+            <p>
+                <label for="photo">Upload your Photo</label><br>
+                <input type="file" name="photo" value="Choose file" id="photo">
+            </p>
+            <p>
+                <input type="submit">
+                <input type="reset">
+            </p>
+        </fieldset>
+    </form>
+    </body>
+</html>

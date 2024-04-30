@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Table</title>
+    </head>
+    <style>
+        table,th,td
+        {
+            border:1px solid black;
+            border-collapse:collapse;
+            border-radius:10px;
+            text-align:center;
+        }
+        th,td
+        {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-bottom: 10px;
+        }
+        table 
+        {
+            border-spacing:30px;
+        }
+        tr:nth-child(even)
+        {
+            background-color:aqua;
+        }
+        td:nth-child(even), th:nth-child(even)
+        {
+            background-color: pink;
+        }
+    </style>
+    <body>
+        <table style="width:100%">
+            <caption>User Details</caption>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Thomas</td>
+                <td>Shelby</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Tylor</td>
+                <td>Durden</td>
+                <td>35</td>
+            </tr>
+            <tr>
+                <td>Bruce</td>
+                <td>Wayne</td>
+                <td>32</td>
+            </tr>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Job Application Form</title>
+    </head>
+    <body>
+    <h1>Job Application Form</h1>
+    <form enctype="multipart/form-data">
+        <p>
+           Your Name:<br>
+           <input type="text" name="your_name"> 
+        </p>
+        <p>
+            Your Education:<br>
+            <select name="education">
+                <option value="be">B.E</option>
+                <option value="btech">B.Tech</option>
+                <option value="bca">B.C.A</option>
+                <option value="bsc">B.Sc</option>
+            </select>
+        </p>
+        <p>
+            You want to apply for the position<br>
+            <select name="position">
+                <option value="fd">Frontend Developer</option>
+                <option value="bd">Backend Developer</option>
+                <option value="fsd">Fullstack Developer</option>
+            </select>
+        </p>
+        <p>
+            Your resume:<br>
+            <input type="file" name="resume">
+        </p>
+        <p>
+            <input type="submit" value="Submit">
+        </p>
+    </form>
+    </body>
+</html>
